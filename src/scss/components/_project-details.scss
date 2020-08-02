@@ -1,0 +1,82 @@
+.project-details {
+  background: lighten(#000, 15%);
+  color: #fff;
+  border-radius: 8px;
+  position: relative;
+
+  &__close {
+    position: absolute;
+    top: .3rem;
+    right: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+  &__body {
+    padding: 2rem;
+  }
+
+  &__title {
+    text-transform: uppercase;
+    margin-bottom: 0.8rem;
+
+    &--sub {
+      color: darken(#fff, 20%);
+      text-transform: uppercase;
+      font-size: 1.3rem;
+    }
+  }
+
+  &__techs {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+
+    li {
+      color: #fff;
+      background: lighten(#000, 10%);
+      padding: 0.8rem;
+      border-radius: 8px;
+      margin-bottom: 1.2rem;
+      margin-right: 0.8rem;
+      text-transform: uppercase;
+    }
+  }
+
+  &__desc {
+    text-align: justify;
+    background: darken(#fff, 10%);
+    margin: 1rem 0 8rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    max-height: 15rem;
+    overflow-y: auto;
+    color: #000;
+  }
+
+  &__action {
+    display: flex;
+    justify-content: flex-end;
+
+    .btn + .btn {
+      margin-left: 2rem;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    display: flex;
+
+    &__image {
+      width: 60%;
+      
+      > img {
+        border-radius: 5px 0 0 5px;
+      }
+    }
+
+    &__body {
+      width: 40%
+    }
+  }
+}

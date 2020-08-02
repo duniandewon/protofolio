@@ -1,0 +1,6 @@
+export const GET_PROJECTS_SUCCESS = 'GET_PROJECTS_SUCCESS';
+export const GET_PROJECTS_FAIL = 'GET_PROJECTS_FAIL';
+export const SET_CURRENT = 'SET_CURRENT';
+export const CLEAR_CURRENT = 'CLEAR_CURRENT';
+export const FILTER = 'FILTER';
+export const CLEAR_FILTER = 'CLEAR_FILTER';

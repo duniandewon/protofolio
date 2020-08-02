@@ -1,0 +1,14 @@
+.contact-form {
+  max-width: 70rem;
+  padding: 2rem;
+  margin: 0 auto;
+  background: $main-color;
+
+  label {
+    color: #fff;
+  }
+
+  @media screen and (min-width: 740px) {
+    border-radius: 8px;
+  } 
+}

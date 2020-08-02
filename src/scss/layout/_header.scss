@@ -1,0 +1,39 @@
+.header {
+  min-height: 50vh;
+  width: 100%;
+  background-color: $main-color;
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  position: relative;
+  padding: 18rem 0;
+
+  h5 {
+    max-width: 45ch;
+    margin: 0 auto;
+    font-weight: 400;
+  }
+
+  > .socials-list {
+    margin-bottom: 5rem;
+  }
+
+  > .btn {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 2.6rem;
+
+    > .btn {
+      font-size: 2rem;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 3rem;
+  }
+}

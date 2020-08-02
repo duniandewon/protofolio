@@ -1,0 +1,14 @@
+.socials-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+
+  &__item + &__item {
+    margin-left: 1.5rem;
+  }
+
+  &__item a:hover {
+    color: darken(#fff, 20%)
+  }
+}

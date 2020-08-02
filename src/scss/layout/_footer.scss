@@ -1,0 +1,21 @@
+ 
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  overflow: auto;
+  color: #b3b3b3;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-transform: uppercase;
+
+  .foot-note {
+    margin-top: 1.5rem;
+  }
+
+  span {
+    color: #ff1744;
+  }
+}

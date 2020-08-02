@@ -1,0 +1,42 @@
+.nav {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+
+  &__link,
+  &__brand {
+    text-transform: uppercase;
+  }
+
+  &__brand {
+    color: #fff;
+    font-weight: 600;
+  }
+
+  &__toggler {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: .5rem;
+
+    @media screen and (min-width: 768px) {
+      display: none;
+    }
+  }
+
+  &__item + &__item {
+    margin-left: 2rem;
+  }
+
+  &__link {
+    color: #b3b3b3;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    &:hover,
+    &.active {
+      color: #fff;
+    }
+  }
+}
