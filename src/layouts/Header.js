@@ -22,7 +22,8 @@ const Header = () => {
     },
     {
       icon: <i className='fas fa-cloud-download-alt' />,
-      href: '#!',
+      href:
+        'https://drive.google.com/file/d/1XPLAqbyUAbyuGvwB-sohRGZseEGOxcFW/view?usp=sharing',
       name: 'download resume',
     },
   ];
